@@ -1,0 +1,558 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courses - LMS</title>
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION BAR ================= -->
+    <header>
+
+        <nav class="navbar">
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">LMS</a>
+            </div>
+
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <!-- Login / Register -->
+            <div class="nav-buttons">
+
+                <a href="login.html" class="btn login-btn">
+                    Login
+                </a>
+
+                <a href="register.html" class="btn register-btn">
+                    Register
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= PAGE HEADER ================= -->
+    <section class="page-header">
+
+        <h1>Explore Our Courses</h1>
+
+        <p>
+            Learn new skills and improve your knowledge
+            with our online courses.
+        </p>
+
+    </section>
+
+
+    <!-- ================= SEARCH SECTION ================= -->
+    <section class="course-search">
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="courseSearch"
+                placeholder="Search for a course..."
+            >
+
+            <button
+                type="button"
+                class="btn search-btn">
+                Search
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= COURSE CATEGORIES ================= -->
+    <section class="course-categories">
+
+        <h2>Course Categories</h2>
+
+        <div class="category-buttons">
+
+            <button class="category-btn">
+                All
+            </button>
+
+            <button class="category-btn">
+                Web Development
+            </button>
+
+            <button class="category-btn">
+                Programming
+            </button>
+
+            <button class="category-btn">
+                Data Science
+            </button>
+
+            <button class="category-btn">
+                Database
+            </button>
+
+            <button class="category-btn">
+                AI & Machine Learning
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= COURSES SECTION ================= -->
+    <section class="all-courses">
+
+        <h2>All Courses</h2>
+
+        <div class="course-container">
+
+
+            <!-- ================= COURSE 1 ================= -->
+            <div class="course-card">
+
+                <img
+                    src="images/course1.jpg"
+                    alt="HTML and CSS Course"
+                >
+
+                <div class="course-content">
+
+                    <span class="course-category">
+                        Web Development
+                    </span>
+
+                    <h3>
+                        HTML & CSS for Beginners
+                    </h3>
+
+                    <p class="instructor">
+                        Instructor: John Smith
+                    </p>
+
+                    <p>
+                        Learn HTML and CSS from the basics
+                        and create beautiful websites.
+                    </p>
+
+                    <div class="course-rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>(120 Reviews)</span>
+                    </div>
+
+                    <h4>
+                        ₹499
+                    </h4>
+
+                    <div class="course-buttons">
+
+                        <a
+                            href="course-details.html"
+                            class="btn">
+                            View Course
+                        </a>
+
+                        <button
+                            class="btn add-cart-btn"
+                            data-course="HTML & CSS for Beginners"
+                            data-price="499">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= COURSE 2 ================= -->
+            <div class="course-card">
+
+                <img
+                    src="images/course2.jpg"
+                    alt="Java Programming Course"
+                >
+
+                <div class="course-content">
+
+                    <span class="course-category">
+                        Programming
+                    </span>
+
+                    <h3>
+                        Java Programming
+                    </h3>
+
+                    <p class="instructor">
+                        Instructor: David Kumar
+                    </p>
+
+                    <p>
+                        Learn Java programming and
+                        object-oriented programming concepts.
+                    </p>
+
+                    <div class="course-rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>(95 Reviews)</span>
+                    </div>
+
+                    <h4>
+                        ₹699
+                    </h4>
+
+                    <div class="course-buttons">
+
+                        <a
+                            href="course-details.html"
+                            class="btn">
+                            View Course
+                        </a>
+
+                        <button
+                            class="btn add-cart-btn"
+                            data-course="Java Programming"
+                            data-price="699">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= COURSE 3 ================= -->
+            <div class="course-card">
+
+                <img
+                    src="images/course3.jpg"
+                    alt="Python Programming Course"
+                >
+
+                <div class="course-content">
+
+                    <span class="course-category">
+                        Programming
+                    </span>
+
+                    <h3>
+                        Python Programming
+                    </h3>
+
+                    <p class="instructor">
+                        Instructor: Priya Sharma
+                    </p>
+
+                    <p>
+                        Learn Python programming from
+                        basic to intermediate level.
+                    </p>
+
+                    <div class="course-rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>(150 Reviews)</span>
+                    </div>
+
+                    <h4>
+                        ₹599
+                    </h4>
+
+                    <div class="course-buttons">
+
+                        <a
+                            href="course-details.html"
+                            class="btn">
+                            View Course
+                        </a>
+
+                        <button
+                            class="btn add-cart-btn"
+                            data-course="Python Programming"
+                            data-price="599">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= COURSE 4 ================= -->
+            <div class="course-card">
+
+                <img
+                    src="images/course1.jpg"
+                    alt="JavaScript Course"
+                >
+
+                <div class="course-content">
+
+                    <span class="course-category">
+                        Web Development
+                    </span>
+
+                    <h3>
+                        JavaScript for Beginners
+                    </h3>
+
+                    <p class="instructor">
+                        Instructor: Rahul Verma
+                    </p>
+
+                    <p>
+                        Learn JavaScript and add
+                        interactive features to websites.
+                    </p>
+
+                    <div class="course-rating">
+                        ⭐⭐⭐⭐
+                        <span>(80 Reviews)</span>
+                    </div>
+
+                    <h4>
+                        ₹799
+                    </h4>
+
+                    <div class="course-buttons">
+
+                        <a
+                            href="course-details.html"
+                            class="btn">
+                            View Course
+                        </a>
+
+                        <button
+                            class="btn add-cart-btn"
+                            data-course="JavaScript for Beginners"
+                            data-price="799">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= COURSE 5 ================= -->
+            <div class="course-card">
+
+                <img
+                    src="images/course2.jpg"
+                    alt="SQL Course"
+                >
+
+                <div class="course-content">
+
+                    <span class="course-category">
+                        Database
+                    </span>
+
+                    <h3>
+                        SQL & MySQL
+                    </h3>
+
+                    <p class="instructor">
+                        Instructor: Anil Kumar
+                    </p>
+
+                    <p>
+                        Learn SQL queries, databases,
+                        tables and MySQL.
+                    </p>
+
+                    <div class="course-rating">
+                        ⭐⭐⭐⭐⭐
+                        <span>(110 Reviews)</span>
+                    </div>
+
+                    <h4>
+                        ₹549
+                    </h4>
+
+                    <div class="course-buttons">
+
+                        <a
+                            href="course-details.html"
+                            class="btn">
+                            View Course
+                        </a>
+
+                        <button
+                            class="btn add-cart-btn"
+                            data-course="SQL & MySQL"
+                            data-price="549">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= COURSE 6 ================= -->
+            <div class="course-card">
+
+                <img
+                    src="images/course3.jpg"
+                    alt="Data Science Course"
+                >
+
+                <div class="course-content">
+
+                    <span class="course-category">
+                        Data Science
+                    </span>
+
+                    <h3>
+                        Data Science Fundamentals
+                    </h3>
+
+                    <p class="instructor">
+                        Instructor: Sneha Rao
+                    </p>
+
+                    <p>
+                        Understand data analysis,
+                        visualization and basic statistics.
+                    </p>
+
+                    <div class="course-rating">
+                        ⭐⭐⭐⭐
+                        <span>(75 Reviews)</span>
+                    </div>
+
+                    <h4>
+                        ₹899
+                    </h4>
+
+                    <div class="course-buttons">
+
+                        <a
+                            href="course-details.html"
+                            class="btn">
+                            View Course
+                        </a>
+
+                        <button
+                            class="btn add-cart-btn"
+                            data-course="Data Science Fundamentals"
+                            data-price="899">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-section">
+
+                <h3>LMS</h3>
+
+                <p>
+                    A simple Learning Management System
+                    for students and learners.
+                </p>
+
+            </div>
+
+
+            <div class="footer-section">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-section">
+
+                <h3>Account</h3>
+
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="dashboard.html">Dashboard</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 LMS. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Common JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```

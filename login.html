@@ -1,0 +1,165 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - LMS</title>
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION BAR ================= -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">LMS</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <a href="login.html" class="btn login-btn">Login</a>
+                <a href="register.html" class="btn register-btn">Register</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= LOGIN SECTION ================= -->
+    <main>
+
+        <section class="login-section">
+
+            <div class="login-container">
+
+                <!-- Login Heading -->
+                <div class="login-header">
+
+                    <h1>Welcome Back!</h1>
+
+                    <p>
+                        Login to continue your learning journey.
+                    </p>
+
+                </div>
+
+
+                <!-- Login Form -->
+                <form id="loginForm">
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div class="form-group">
+
+                        <label for="password">Password</label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Remember Me + Forgot Password -->
+                    <div class="login-options">
+
+                        <label>
+                            <input type="checkbox" id="rememberMe">
+                            Remember me
+                        </label>
+
+                        <a href="#">Forgot Password?</a>
+
+                    </div>
+
+
+                    <!-- Login Button -->
+                    <button
+                        type="submit"
+                        class="btn login-submit-btn">
+                        Login
+                    </button>
+
+                </form>
+
+
+                <!-- Register Link -->
+                <div class="register-link">
+
+                    <p>
+                        Don't have an account?
+                        <a href="register.html">Create an account</a>
+                    </p>
+
+                </div>
+
+
+                <!-- Back to Home -->
+                <div class="back-home">
+
+                    <a href="index.html">
+                        ← Back to Home
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 LMS. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Common JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
